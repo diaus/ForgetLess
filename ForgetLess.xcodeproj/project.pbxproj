@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		49B590802D4FD02300DF4E73 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 49B5907F2D4FD02300DF4E73 /* Factory */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4972DE732D4EA34F00F0751D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -33,7 +37,7 @@
 		49B58FC32D4FC7B600DF4E73 /* Exceptions for "ForgetLess" folder in "ForgetLess" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 4972DE612D4EA34E00F0751D /* ForgetLess */;
 		};
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B590802D4FD02300DF4E73 /* Factory in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = ForgetLess;
 			packageProductDependencies = (
+				49B5907F2D4FD02300DF4E73 /* Factory */,
 			);
 			productName = ForgetLess;
 			productReference = 4972DE622D4EA34E00F0751D /* ForgetLess.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 4972DE592D4EA34E00F0751D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				49B5907E2D4FD02300DF4E73 /* XCRemoteSwiftPackageReference "Factory" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4972DE632D4EA34E00F0751D /* Products */;
 			projectDirPath = "";
@@ -408,11 +417,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ForgetLess/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ForgetLess/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = CP7QJ3G8V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ForgetLess/Info.plist;
+				INFOPLIST_FILE = ForgetLess/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
@@ -441,11 +450,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ForgetLess/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ForgetLess/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = CP7QJ3G8V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ForgetLess/Info.plist;
+				INFOPLIST_FILE = ForgetLess/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
@@ -579,6 +588,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49B5907E2D4FD02300DF4E73 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49B5907F2D4FD02300DF4E73 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49B5907E2D4FD02300DF4E73 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4972DE5A2D4EA34E00F0751D /* Project object */;
 }

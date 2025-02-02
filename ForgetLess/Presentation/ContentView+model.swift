@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import Factory
 
 extension ContentView {
     
     final class ViewModel: ObservableObject {
         
-        private let tasksRepository = TempResolver.shared.resolveTasksRepository()
+        @Injected(\.tasksRepository) private var tasksRepository
         
         @Published private(set) var tasks: [TaskItem] = []
 
