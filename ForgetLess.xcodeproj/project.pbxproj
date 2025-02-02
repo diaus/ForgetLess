@@ -29,9 +29,22 @@
 		4972DE7C2D4EA34F00F0751D /* ForgetLessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgetLessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		49B58FC32D4FC7B600DF4E73 /* Exceptions for "ForgetLess" folder in "ForgetLess" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4972DE612D4EA34E00F0751D /* ForgetLess */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4972DE642D4EA34E00F0751D /* ForgetLess */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				49B58FC32D4FC7B600DF4E73 /* Exceptions for "ForgetLess" folder in "ForgetLess" target */,
+			);
 			path = ForgetLess;
 			sourceTree = "<group>";
 		};
@@ -399,7 +412,7 @@
 				DEVELOPMENT_TEAM = CP7QJ3G8V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ForgetLess/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
@@ -432,7 +445,7 @@
 				DEVELOPMENT_TEAM = CP7QJ3G8V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ForgetLess/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
